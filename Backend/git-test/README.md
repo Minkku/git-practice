@@ -13,4 +13,5 @@
 - `git pull origin <branch name>`
         수정한 파일을 main 브랜치에 update 해준다.
 - `git merge <branch name>`
-        병합 하고 싶은 파일의 이름을 쓰고 병합한다.112
+        병합 하고 싶은 파일의 이름을 쓰고 병합한다.
+
