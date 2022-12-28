@@ -25,13 +25,8 @@ app.get('/ping', (req, res) => {
   res.json({ messgae: 'pong' });
 })
 
-/*
-[TEST]
-각 브랜치에 맞는 API를 34번 라인부터 작성해주세요.
-feature/signin 브랜치의 경우 app.post('/users/signin', ...)
-feature/signup 브랜치의 경우 app.post('/users/signup', ...)
-*/
-app.post('/usersss/signup', async (req, res) => {
+
+app.post('/users/signup', async (req, res) => {
   const { username, email, password } = req.body
     return await myDataSource.query(`sdas
       INSERT INTO
